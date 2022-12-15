@@ -4,6 +4,8 @@
   
   .content p {
     text-align: justify;
+    color:var(--color2);
+    font-size:15px;
   }
   
 
@@ -16,10 +18,7 @@
 .content h6{
   color: var(--color1)!important;
 }
-.content p{
-  color:var(--color2);
-  font-size:15px;
-}
+
 .content {
   margin: 5%;
   left: 10%;
