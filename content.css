@@ -52,7 +52,7 @@
   font-weight: bold;
 }
 
-.card-text,
+.card-text > 
 p {
   font-size: 20px !important;
 }
