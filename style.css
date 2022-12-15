@@ -9,6 +9,9 @@ body {
 .absolute-img>img {
   opacity: 0.8;
 }
+.img-header{
+  width:100%;
+}
 
 .btn-primary,.text-primary{
   background-color:var(--color1)!important;
