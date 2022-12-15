@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    :root {
+        --color1: #5aab26;
+        --color2: #00599E;
+        --color3: white;
+        --color4: white;
+    }
+</style>
+
+<head>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="content.css">
+    
+    <link rel="stylesheet" href="footer.css">
+
+
+    <!--LIBRERIAS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    
+
+
+
+    <!--METAS-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cimne Template 2023</title>
+</head>
+
+<body>
+    <!--NAVBAR MOBILE-->
+    <div class="container" style="min-height: 100%">
+
+
+        <div class="row mobile-navbar">
+            <div class="sticky-top mobile_top_bar d-block p-1 d-md-none sticky-top">
+
+                <div class="row p-0 m-0 justify-content-between align-items-center" style="max-width: 100%;">
+
+                    <button class="btn" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasLeftNavigation" aria-controls="offcanvasLeftNavigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <h2 class="text-center p-0 m-0" style="overflow: fade;width: auto;max-width: 60%;">COMPOSITES 2023
+                    </h2>
+
+
+                    <a href="https://complas2023.cimne.com/me" style="" class="btn float-end" type="button">
+                        <i class="fa fa-user"></i>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--NAVBAR-->
+    
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm  fixed-top">
+        <button class="btn btn-navbar-collapse" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeftNavigation" aria-controls="offcanvasLeftNavigation">
+            <i class="fa fa-bars"></i>
+        </button> 
+        <div class="container">
+            
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img width="150px" src="https://congressarchive.cimne.com/composites_2023/assets/compositeslogo.png">
+            </a> 
+
+            <div class="collapse navbar-collapse" id="navbar4">
+                <ul class="navbar-nav mr-auto pl-lg-4">
+                    <li class="nav-item px-lg-2 active"> <a class="nav-link" href="#"> <span
+                                class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a>
+                    </li>
+                    <li class="nav-item px-lg-2"> <a class="nav-link" href="#org-committee">Organizing Committee</a>
+                    </li>
+                    <li class="nav-item px-lg-2"> <a class="nav-link" href="ejemplo_content.html">Objectives</a> </li>
+
+                    <div class="collapse navbar-collapse" id="dropdown-menu">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item dropdown d-menu">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Conference Venue
+                                </a>
+                                <ul id="dropdown-submenu" aria-labelledby="dropdown"
+                                    class="dropdown-menu mt-2  sm-menu shadow-sm">
+                                    <li><a class="dropdown-item" href="#">Venue</a></li>
+                                    <li><a class="dropdown-item" href="#">How to go to the conference</a></li>
+                                    <li><a class="dropdown-item" href="#">Accomodation</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <li class="nav-item px-lg-2">
+                        <a class="nav-link" href="#">Secretariat</a>
+                    </li>
+                </ul>
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <div class="btn-nav">
+                            <a id="login-btn-nav" class="btn btn-outline-light btn-small navbar-btn" href="/me">Login /
+                                Register</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+    </nav>
+
+
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeftNavigation" aria-labelledby="offcanvasLeftNav">
+        <div class="text-center offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasLeftNav">COMPOSITES 2023</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <ul class="navbar-nav mr-auto pl-lg-4">
+    
+                <li class="nav-item px-lg-2 active"> <a class="nav-link" href="index.html"> <span
+                            class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a>
+                </li>
+                <li class="nav-item px-lg-2"> <a class="nav-link" href="#org-committee">Organizing Committee</a>
+                </li>
+                <li class="nav-item px-lg-2"> <a class="nav-link" href="#">Objectives</a> </li>
+    
+                <div class="collapse navbar-collapse" id="dropdown-menu">
+                    <ul class="navbar-nav">
+    
+                        <li class="nav-item dropdown d-menu">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Conference Venue
+                            </a>
+                            <ul id="dropdown-submenu" aria-labelledby="dropdown"
+                                class="dropdown-menu mt-2  sm-menu shadow-sm">
+                                <li><a class="dropdown-item" href="#">Venue</a></li>
+                                <li><a class="dropdown-item" href="#">How to go to the conference</a></li>
+                                <li><a class="dropdown-item" href="#">Accomodation</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+    
+                </div>
+    
+                <li class="nav-item px-lg-2">
+                    <a class="nav-link" href="#">Secretariat</a>
+                </li>
+            </ul>
+          </div>
+          <div class="login-offcanvas mt-5">
+            <a href="/me"><button class="btn btn-login-offcanvas btn-outline-light" type="button">
+              Log In / Register
+            </button></a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    <!--TEXTO Y FONDO INDEX-->
+    <div class="img-header">
+        <div class="absolute-img">
+            <img src="https://congressarchive.cimne.com/composites_2023/assets/fondocomposites.png">
+        </div>
+        <div class="text-content">
+            <h2>WELCOME TO</h2>
+            <h1 class="display-4 cong-title">COMPOSITES 2023</h1>
+            <h3>The 9th ECCOMAS Thematic Conference on the Mechanical Response of Composites</h3>
+            <h4>July 31 to August 5, 2022</h4>
+            <br>
+            <a class="btn btn-primary" href="/me">Register now</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--EJEMPLO ORGANIZADORES-->
+    <div class="content">
+        <div class="container-fluid">
+            <h4 id="org-committee">Objectives</h4>
+
+      
+            <p>The scope of the <b>9th ECCOMAS Thematic Conference on the Mechanical Response of Composites - COMPOSITES 2023</b> is the scientific investigation of complex mechanical behaviour of composite materials and structures. The conference focuses mainly on theoretical and numerical modelling and prediction of the performance of composite components, also covering experimental validation and challenging industrial applications or recent developments.</p>
+            <br><br>
+            <h4 id="org-committee">Conference Topics</h4>
+
+            
+            <ul class="list-group-items">
+                <div class="row">
+
+               
+                <div class="col-md-3">
+                    <li class="list-items">Continuum Damage Mechanics</li>
+                    <li class="list-items">Delamination</li>
+                    <li class="list-items">Dynamics</li>
+                    <li class="list-items">Fatigue</li>
+                    <li class="list-items">Fracture Mechanics</li>
+                </div>
+                <div class="col-md-3">
+                    <li class="list-items">Impact</li>
+                    <li class="list-items">Meshless and Novel Numerical Methods</li>
+                    <li class="list-items">Micro-mechanics</li>
+                    <li class="list-items">Model Identification</li>
+                    <li class="list-items">Multi-scale Modelling</li>
+                </div>
+                <div class="col-md-3">
+                    <li class="list-items">Multifunctional Materials</li>
+                    <li class="list-items">Novel Materials</li>
+                    <li class="list-items">Optimisation</li>
+                    <li class="list-items">Laminated and Textile Composites</li>
+                    <li class="list-items">Probabilistic Methods</li>
+                </div>
+                <div class="col-md-3">
+                    <li class="list-items">Progressive Failure Analysis</li>
+                    <li class="list-items">Reduced Order Models</li>
+                    <li class="list-items">Stability</li>
+                    <li class="list-items">Structural Health Monitoring</li>
+                    <li class="list-items">Virtual Testing and other related themes</li>
+                </div>
+            </ul>            
+        </div>
+
+        <br><br>
+
+        <h4>Organizers</h4>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card text-white">
+                    <img src="https://congressarchive.cimne.com/composites_2023/assets/laura.png" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                      <h5 class="card-title"></h5>
+                      <div class="card-text">
+                        <span>Prof. Laura de Lorenzis</span><br>
+                        <span class="card-text-desc">Phase-field modeling of fracture in composite materials</span>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white">
+                    <img src="https://congressarchive.cimne.com/composites_2023/assets/laura.png" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                      <h5 class="card-title"></h5>
+                      <div class="card-text">
+                        <span>Prof. Laura de Lorenzis</span><br>
+                        <span class="card-text-desc">Phase-field modeling of fracture in composite materials</span>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white">
+                    <img src="https://congressarchive.cimne.com/composites_2023/assets/laura.png" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                      <h5 class="card-title"></h5>
+                      <div class="card-text">
+                        <span>Prof. Laura de Lorenzis</span><br>
+                        <span class="card-text-desc">Phase-field modeling of fracture in composite materials</span>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-white">
+                    <img src="https://congressarchive.cimne.com/composites_2023/assets/laura.png" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                      <h5 class="card-title"></h5>
+                      <div class="card-text">
+                        <span>Prof. Laura de Lorenzis</span><br>
+                        <span class="card-text-desc">Phase-field modeling of fracture in composite materials</span>
+                      </div>
+
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+        
+
+        <br><br>
+
+
+
+        <div class="container">                      
+            <div class="row text-center justify-content-center mb-5">
+                <div class="col-xl-6 col-lg-8">
+                    <h4>Important Dates</h4>
+                   
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col">
+                    <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                                <div class="inner-circle"></div>
+                                <p class="text-center h6 mt-3 mb-1">06 Feb 2023</p>
+                                <p class="text-center text-desc h6 text-muted mb-0 mb-lg-0">Abstract submission deadline</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
+                                <div class="inner-circle"></div>
+                                <p class="text-center h6 mt-3 mb-1"> 	15 March 2023</p>
+                                <p class="text-center text-desc  h6 text-muted mb-0 mb-lg-0">Notification to authors</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
+                                <div class="inner-circle"></div>
+                                <p class="text-center h6 mt-3 mb-1"> 	22 May 2023</p>
+                                <p class="text-center text-desc h6 text-muted mb-0 mb-lg-0">Early bird registration & deadline for speaker registration*</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
+                                <div class="inner-circle"></div>
+                                <p class="text-center h6 mt-3 mb-1"> 	30 June 2023</p>
+                                <p class="text-center text-desc h6 text-muted mb-0 mb-lg-0">Full paper submission**</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--FOOTER  -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="footer-copyright col-md-4 mb-0 text-muted">© 2023 CIMNE Congress Bureau</p>
+
+            <a href="#"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <img class="footer-img" src="https://congressarchive.cimne.com/composites_2023/assets/compositeslogo.png">
+            </a>
+
+            <ul id="mobile-footer"class="nav footer-links col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Terms of Service</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        if ($(window).width() > 991) {
+            $('.navbar-light .d-menu').hover(function () {
+                $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+            }, function () {
+                $(this).find('.sm-menu').first().stop(true, true).delay(120).slideUp(100);
+            });
+        }
+    });
+
+    if ($(window).width() > 600) {
+        $('#mobile-footer').addClass('justify-content-end');
+    } else {
+        $('#mobile-footer').removeClass('justify-content-end');
+    }
+
+
+
+
+</script>
+
+</html> 

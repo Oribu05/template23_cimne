@@ -1,0 +1,27 @@
+.footer-img{
+    width:50%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-links {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center!important;
+        margin-top:-5px;
+    }
+
+    .footer-copyright{
+        text-align:center; 
+    }
+    .footer-copyright::after{
+        content: "";
+        margin:10px;
+        
+    }
+    .footer-img{
+        margin-top:10px;
+    }
+
+
+}

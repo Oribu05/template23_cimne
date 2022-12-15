@@ -1,0 +1,80 @@
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  
+}
+
+.absolute-img>img {
+  opacity: 0.8;
+}
+
+.btn-primary,.text-primary{
+  background-color:var(--color1)!important;
+}
+
+.text-content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .text-content {
+    top: 70%;
+  }
+  .img-header {
+    display: none;
+  }
+  .cong-title {
+    font-size: 50px;
+  }
+}
+
+
+[type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+
+.btn{
+  width: auto;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color1);
+  background-color: white;
+  border: 1px solid var(--color1);
+  display: inline-block;
+}
+
+
+.p-1 {
+  padding: 0.25rem !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.cong-title {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.logos-bg-center {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+
+
+}
