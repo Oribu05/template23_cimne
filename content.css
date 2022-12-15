@@ -18,6 +18,7 @@
 }
 .content p{
   color:var(--color2);
+  font-size:15px;
 }
 .content {
   margin: 5%;
